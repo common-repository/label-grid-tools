@@ -1,0 +1,333 @@
+BODY.scrollDisabled { 
+    height: 100% !important; 
+    overflow: hidden !important; 
+} 
+
+BODY.scrollDisabled .ui-widget-overlay { z-index: 99999 !important;}
+
+.smediapopup {
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+	z-index: 999999 !important;
+}
+
+.smediapopup .ui-dialog-titlebar {
+	background: none;
+	border: 0;
+	padding: 0;
+}
+
+.smediapopup a#lg-gate-help-ico {
+    color: #fff;
+    background-color: #000;
+    width: 20px;
+    padding: 0;
+    height: 20px;
+    line-height: 19px;
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0.5em;
+    -webkit-box-shadow: inset -1px -1px 1px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: inset -1px -1px 1px 0px rgba(0,0,0,0.25);
+    box-shadow: inset -1px -1px 1px 0px rgba(0,0,0,0.25);
+}
+
+#modalwindow-freedownload, #modalwindow-presave {
+	z-index: 999;
+	width: 600px;
+	padding: 0 1.5em 1em;
+	padding-top: 0;
+	background-color: white;
+	display: none;
+}
+
+#modalwindow-freedownload .container, #modalwindow-presave .container {
+	margin: 1em;
+}
+
+#modalwindow-freedownload  .btn, #modalwindow-freedownload  .navbar .navbar-nav .navbar-btn, .spotify-api_button a, #modalwindow-presave  .btn, #modalwindow-presave  .navbar .navbar-nav .navbar-btn,
+	.spotify-api_button a {
+	font-size: 14px;
+	line-height: 1.5;
+	border-radius: 500px;
+	padding: 12px 47px 8px;
+	-webkit-transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+	-o-transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+	transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+	border-width: 0;
+	letter-spacing: 1.2px;
+	min-width: 130px;
+	text-transform: uppercase;
+	white-space: normal;
+}
+
+#modalwindow-freedownload .btn-green, #modalwindow-freedownload .btn-primary, #modalwindow-freedownload .navbar .navbar-nav .btn-primary, .spotify-api_button a, #modalwindow-presave .btn-green,
+	#modalwindow-presave .btn-primary, #modalwindow-presave .navbar .navbar-nav .btn-primary, .spotify-api_button a {
+	color: #fff;
+	background-color: #1d7eb9;
+	transition-property: background-color, border-color, color, box-shadow, filter;
+	transition-duration: .3s;
+	border-width: 0;
+	letter-spacing: 2px;
+	min-width: 160px;
+	text-transform: uppercase;
+	white-space: normal;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	letter-spacing: 1px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#modalwindow-freedownload .btn-green:focus, #modalwindow-freedownload .btn-green:hover, #modalwindow-freedownload  .btn-primary:focus, #modalwindow-freedownload .btn-primary:hover,
+	#modalwindow-freedownload .navbar .navbar-nav .btn-primary:focus, #modalwindow-freedownload .navbar .navbar-nav .btn-primary:hover, #modalwindow-presave .btn-green:focus, #modalwindow-presave .btn-green:hover,
+	#modalwindow-presave  .btn-primary:focus, #modalwindow-presave .btn-primary:hover, #modalwindow-presave .navbar .navbar-nav .btn-primary:focus, #modalwindow-presave .navbar .navbar-nav .btn-primary:hover
+	{
+	color: #fff;
+	background-color: #3798d4;
+	outline: none;
+}
+
+#modalwindow-freedownload  button:disabled, #modalwindow-freedownload button[disabled], #modalwindow-freedownload  button:disabled:hover, #modalwindow-freedownload button:hover[disabled],
+	#modalwindow-presave  button:disabled, #modalwindow-presave button[disabled], #modalwindow-presave  button:disabled:hover, #modalwindow-presave button:hover[disabled] {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+	pointer-events: none;
+}
+
+#modalwindow-freedownload h2, #modalwindow-presave h2 {
+	margin-bottom: 0;
+	text-align: center;
+	line-height: 1em;
+	text-transform:uppercase;
+	font-size: 1.5em;
+}
+
+#modalwindow-freedownload p, #modalwindow-presave p {
+	text-align: center;
+}
+
+#modalwindow-freedownload .gate_option_desc, #modalwindow-presave .gate_option_desc {
+	font-size: 0.6em;
+    display: inline-block;
+    padding: 0px 0.1em;
+    line-height: 1em;
+}
+
+#modalwindow-freedownload .gate_option_desc:after {
+	content: ", ";
+}
+
+#modalwindow-freedownload .gate_option_desc:last-child:after {
+	content: "";
+}
+
+#modalwindow-freedownload .gate_option_container .gate_option_desc A:focus, #modalwindow-presave .gate_option_container .gate_option_desc A:focus {
+	text-decoration: none;
+}
+
+#modalwindow-freedownload .gate_option_container, #modalwindow-presave .gate_option_container {
+	margin: 1em auto;
+	text-align: left;
+}
+
+#modalwindow-freedownload .gateimage, #modalwindow-presave .gateimage {
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	height: 24px;
+	width: 80px;
+	float: left;
+	margin-right: 2em;
+	margin-top: -5px;
+}
+
+#modalwindow-freedownload .register_services a, #modalwindow-presave .register_services a {
+	border: 1px solid #eee;
+	display: block;
+	padding: 1em 2em 0.1em;
+	height: 40px;
+	background-color: #ffffff;
+	-webkit-transition: background-color 0.2s ease-out;
+	-moz-transition: background-color 0.2s ease-out;
+	-o-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: bold;
+	max-width: 340px;
+	margin: 0.5em auto;
+}
+
+#modalwindow-freedownload .register_services a, #modalwindow-presave .register_services a {
+	text-decoration: none;
+}
+
+#modalwindow-freedownload .register_services a.registered, #modalwindow-presave .register_services a.registered {
+	background: #bef7be;
+}
+
+#modalwindow-freedownload .register_services a.registered:hover, #modalwindow-presave .register_services a.registered:hover {
+	background: #bef7be;
+}
+
+#modalwindow-freedownload .gateimage.spotify, #modalwindow-presave .gateimage.spotify {
+	background-image: url("../images/ico_spotify.svg");
+}
+
+#modalwindow-freedownload .gateimage.soundcloud {
+	background-image: url("../images/ico_soundcloud.svg");
+}
+
+#modalwindow-freedownload .gateimage.youtube {
+	background-image: url("../images/ico_youtube.svg");
+}
+
+#modalwindow-freedownload .gateimage.facebook {
+	background-image: url("../images/ico_facebook.svg");
+}
+
+#modalwindow-freedownload .gateimage.twitter {
+	background-image: url("../images/ico_twitter.svg");
+}
+
+#modalwindow-freedownload .register_services a:hover, #modalwindow-presave .register_services a:hover {
+	background-color: #f9f9f9;
+	text-decoration: none;
+}
+
+#modalwindow-freedownload #content, #modalwindow-presave #content {
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+#modalwindow-freedownload #popdescription, #modalwindow-presave #popdescription {
+	text-align: center;
+	margin-bottom: 0.3em;
+	font-size:0.8em;
+}
+
+#modalwindow-freedownload .gate_option_title, #modalwindow-presave .gate_option_title {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#modalwindow-freedownload .gate_option_title a, #modalwindow-presave .gate_option_title a {
+	text-transform: initial;
+    font-weight: normal;
+    font-size: 0.7em;
+}
+
+#modalwindow-freedownload .gate_option_data_container, #modalwindow-presave .gate_option_data_container {
+	padding: 0 0.3em;
+}
+
+#modalwindow-presave .gate_option_data_container {
+	text-align: center;
+}
+
+#modalwindow-freedownload .notelimit, #modalwindow-presave .notelimit {
+	font-size: 0.7em;
+	font-style: italic;
+	padding: 0.9em 0 0;
+	text-align: center;
+}
+
+#modalwindow-presave #playlistdata {
+	max-height: 500px;
+	height: 250px;
+	overflow: hidden;
+	overflow-y: scroll;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+#modalwindow-presave #playlistdata::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#modalwindow-presave #playlistdata::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#modalwindow-presave #playlistdata::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #D62929;
+}
+
+#modalwindow-presave #playlistdata table {
+	width: auto;
+	margin: 0;
+}
+
+#modalwindow-presave #playlistdata td {
+	border: 0;
+	padding-bottom: 1em;
+}
+
+#modalwindow-presave #playlistdata td img {
+	margin-right: 1em;
+}
+
+#modalwindow-presave .privacydisplay,
+#modalwindow-freedownload .privacydisplay {
+	text-align: center;
+    padding: 0;
+    font-size: 0.6em;
+}
+
+#modalwindow-presave .lg-gate-actions-details,
+#modalwindow-freedownload .lg-gate-actions-details {
+	display:none;
+	border: 1px solid #ccc;
+    padding: 0.4em;
+}
+
+#modalwindow-presave .lg-gate-actions-details,
+#modalwindow-freedownload .lg-gate-actions-details:target {
+	display: block;
+}
+
+#modalwindow-presave #maxaccountsdescription,
+#modalwindow-freedownload #maxaccountsdescription {
+	font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media only screen and (max-width: 512px) {
+	#modalwindow-freedownload .register_services a, #modalwindow-presave .register_services a {
+		font-size: 0.70em;
+	}
+	#modalwindow-presave #playlistdata {
+		height: 150px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	#modalwindow-freedownload .gateimage, #modalwindow-presave .gateimage {
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+	#modalwindow-freedownload .register_services a, #modalwindow-presave .register_services a {
+		text-align: center;
+		height: auto;
+		padding: 0.8em 2em 0.7em;
+	}
+}

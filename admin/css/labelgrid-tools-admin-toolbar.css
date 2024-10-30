@@ -1,0 +1,12 @@
+.labelgrid-toolbar-icon{
+	background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5ODEuNzUiIGhlaWdodD0iOTkxIiB2aWV3Qm94PSIwIDAgOTgxLjc1IDk5MSI+ICA8ZGVmcz4gICAgPHN0eWxlPiAgICAgIC5jbHMtMSB7ICAgICAgICBmaWxsOiAjYTBhNWFhOyAgICAgICAgc3Ryb2tlOiAjZmZmOyAgICAgICAgc3Ryb2tlLW1pdGVybGltaXQ6IDEwOyAgICAgIH0gICAgPC9zdHlsZT4gIDwvZGVmcz4gIDx0aXRsZT5sb2dvPC90aXRsZT4gIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTMwNS43LDMwMS4wN0g5LjYzVjVIMzA1LjdaTTY0OCw2OTguOTNIMzUyVjk5NUg2NDhabTM0Mi4zMywwSDY5NC4zVjk5NUg5OTAuMzdabTAtMzQ3SDY5NC4zVjY0OEg5OTAuMzdaTTY0OCw1SDM1MlYzMDEuMDdINjQ4Wk0zMDUuNywzNTJIOS42M1Y2NDhIMzA1LjdabTAsMzQ3SDkuNjNWOTk1SDMwNS43Wk05OTAuMzcsNUg2OTQuM1YzMDEuMDdIOTkwLjM3Wk02NDgsMzUySDM1MlY2NDhINjQ4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTkuMTMgLTQuNSkiLz48L3N2Zz4=") !important;
+	float: left;
+    width: 22px !important;
+    height: 22px !important;
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+    margin-right: 5px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px auto;
+}

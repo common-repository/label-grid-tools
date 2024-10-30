@@ -1,0 +1,24 @@
+{
+	"name" : "labelgrid/tools",
+	"description" : "LabelGrid Tools",
+	"keywords" : [
+		"labelgrid"
+	],
+	"homepage" : "https://labelgrid.com/",
+	"type" : "project",
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=8.0",
+		"htmlburger/carbon-fields" : "^3.3",
+		"guzzlehttp/guzzle" : "^6.0",
+		"bower-asset/moment" : "^2.24",
+		"monolog/monolog" : "^2.0",
+		"bradmkjr/monolog-wordpress" : "^2.1",
+		"caseyamcl/guzzle_retry_middleware": "^2.3"
+	},
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://asset-packagist.org"
+		}
+	]
+}
